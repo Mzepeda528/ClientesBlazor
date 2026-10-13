@@ -48,6 +48,4 @@ porque Blazor le hace peticiones HTTP a la API mientras la usas.
 ## Notas
 - Si al agregar/editar te sale "No se pudo conectar con la API", verifica que la terminal
   de `ClientesApi` siga corriendo y que el puerto coincida con el de `appsettings.json`.
-- El proyecto usa Bootstrap 5 vía CDN, por lo que necesitas conexión a internet
-  la primera vez que cargues la página (o descarga bootstrap localmente si tu
-  entrega debe ser 100% offline).
+- Bootstrap 5.3.3 se sirve localmente desde `wwwroot/lib/bootstrap` (no requiere internet).

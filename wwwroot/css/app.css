@@ -25,3 +25,8 @@ main {
 .content {
     padding-top: 1rem;
 }
+
+/* Fondo oscuro de los modales (antes era un style en línea; se movió aquí por la CSP) */
+.modal-fondo {
+    background-color: rgba(0, 0, 0, 0.5);
+}
